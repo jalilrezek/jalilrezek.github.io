@@ -1,0 +1,53 @@
+commit 224a261beb0638b0615d5cc3a6ef3fc60e3d5902
+Author: jalilrezek <jalilrezek27@gmail.com>
+Date:   Sat Sep 14 18:35:20 2024 -0400
+
+    try
+
+commit 492b2f573b9b0909fad73ffd2c73f5b2f665b677
+Author: jalilrezek <jalilrezek27@gmail.com>
+Date:   Sat Sep 14 18:32:02 2024 -0400
+
+    added deploy.yml file
+
+commit 86a554ab4746148371c04787519b85fcc1741439
+Author: jalilrezek <jalilrezek27@gmail.com>
+Date:   Sat Sep 14 18:12:15 2024 -0400
+
+    added courses section, stopped sliding animation to prevent the weird bug where it would show the portfolio page (the old one called portfolio in the HTML as well as portfolio on the website) while transitioning pages.
+
+commit e65fb1b65a9d1adecb8511d6a65aba319b434932
+Author: jalilrezek <jalilrezek27@gmail.com>
+Date:   Sat Sep 14 17:13:23 2024 -0400
+
+    cleaned up tab name
+
+commit e4c413dc435a9cda5315459831c3a1eb7c47ae91
+Author: jalilrezek <jalilrezek27@gmail.com>
+Date:   Sat Sep 14 17:01:21 2024 -0400
+
+    restyling
+
+commit 32ce451161f807a708b0c289ee877491983b5bd1
+Author: jalilrezek <jalilrezek27@gmail.com>
+Date:   Sun Sep 8 12:32:31 2024 -0400
+
+    added responsive.css
+
+commit eb51747862b2aff5a27fcdceb8faaa4a60aab209
+Author: jalilrezek <jalilrezek27@gmail.com>
+Date:   Fri Sep 6 11:40:52 2024 -0400
+
+    initial styling
+
+commit c98af77d5de36c01cd2c04f9a9dc5df38b7825f5
+Author: jalilrezek <jalilrezek27@gmail.com>
+Date:   Fri Sep 6 11:29:14 2024 -0400
+
+    initial commit
+
+commit 5719930710baf5a42c60a892e2f4881d63e8ca0b
+Author: jalilrezek <157626361+jalilrezek@users.noreply.github.com>
+Date:   Fri Sep 6 00:09:32 2024 -0400
+
+    Initial commit
