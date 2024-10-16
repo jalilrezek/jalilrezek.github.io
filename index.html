@@ -80,6 +80,9 @@
             <a href="#services"><i class="fa fa-list"></i> Portfolio</a>
           </li>
           <li>
+            <a href="#resume"><i class="fa  fa-file-alt"></i> &nbsp;Resume</a>
+          </li>
+          <li>
             <a href="#contact"><i class="fa fa-comments"></i> Contact</a>
           </li>
         </ul>
@@ -156,43 +159,11 @@
             </div>
             <div class="row">
               <div class="buttons padd-15">
-                <a href="https://mailto:jalilrezek27@gmail.com" class="btn">Email Me</a>
-                <a href="#contact" data-section-index="1" class="btn hire-me">Contact Page</a>
+                <a href="#contact" data-section-index="1" class="btn hire-me">Contact Me</a>
               </div>
             </div>
           </div>
-          <div class="skills padd-15">
-            <div class="row">
-              <div class="skill-item padd-15">
-                <h5>Data structures</h5>
-                <div class="progress">
-                  <div class="progress-in" style="width: 100%"></div>
-                 <!-- <div class="skill-porcent">100%</div>-->
-                </div>
-              </div>
-              <div class="skill-item padd-15">
-                <h5>Algorithms</h5>
-                <div class="progress">
-                  <div class="progress-in" style="width: 100%"></div>
-                  <!--<div class="skill-porcent">100%</div>-->
-                </div>
-              </div>
-              <div class="skill-item padd-15">
-                <h5>Full-stack development</h5>
-                <div class="progress">
-                  <div class="progress-in" style="width: 100%"></div>
-                  <!--<div class="skill-porcent">100%</div>-->
-                </div>
-              </div>
-              <div class="skill-item padd-15">
-                <h5>Object-oriented programming</h5>
-                <div class="progress">
-                  <div class="progress-in" style="width: 100%"></div>
-                  <!--<div class="skill-porcent">100%</div>-->
-                </div>
-              </div>
-            </div>
-          </div>
+         <!--The "skills" progress bars used to be here. I thought they were too cheesy. Removed. See previous Git commits if you want it back.-->
         </div>
 
         <div class="row">
@@ -229,6 +200,38 @@
                     </p>
                   </div>
                   <!-- timeline Item End -->
+                </div>
+              </div>
+            </div>
+            <h3 class="title" style = "margin-top: 30px">Extracurricular Involvement</h3>
+            <div class="row">
+              <div class="timeline-box padd-15">
+                <div class="timeline shadow-dark">
+              <!-- timeline Item -->
+              <div class="timeline-item">
+                <div class="circle-dot"></div>
+                <h6 class="timeline-date">
+                  <i class="fa fa-calendar"></i> 2022 - Present
+                </h6>
+                <h4 class="timeline-title">President, JHU S.C.N.O.</h4>
+                <ul class="timeline-text">
+                  <li>Led teams providing pro-bono consulting services for nonprofit organizations in Baltimore. </li>
+                </ul>
+              </div>
+              <!-- timeline Item End -->
+              <!-- timeline Item -->
+              <div class="timeline-item">
+                <div class="circle-dot"></div>
+                <h6 class="timeline-date">
+                  <i class="fa fa-calendar"></i> 2021 - 2023
+                </h6>
+                <h4 class="timeline-title">Emergency Room Volunteer</h4>
+                <ul class="timeline-text">
+                  <li>Supported nursing staff in patient care at MedStar Union Memorial Hospital in Baltimore.</li>
+                  <li>Provided assistance at Bozeman Deaconess Hospital in Bozeman.</li>
+                </ul>
+              </div>
+              <!-- timeline Item End -->
                 </div>
               </div>
             </div>
@@ -280,31 +283,6 @@
                     </ul>
                   </div>
                   <!-- timeline Item End -->
-                  <!-- timeline Item -->
-                  <div class="timeline-item">
-                    <div class="circle-dot"></div>
-                    <h6 class="timeline-date">
-                      <i class="fa fa-calendar"></i> 2022 - Present
-                    </h6>
-                    <h4 class="timeline-title">Vice President, JHU S.C.N.O.</h4>
-                    <ul class="timeline-text">
-                      <li>Led teams providing pro-bono consulting services for nonprofit organizations in Baltimore.</li>
-                    </ul>
-                  </div>
-                  <!-- timeline Item End -->
-                  <!-- timeline Item -->
-                  <div class="timeline-item">
-                    <div class="circle-dot"></div>
-                    <h6 class="timeline-date">
-                      <i class="fa fa-calendar"></i> 2021 - 2023
-                    </h6>
-                    <h4 class="timeline-title">Emergency Room Volunteer</h4>
-                    <ul class="timeline-text">
-                      <li>Supported nursing staff in patient care at MedStar Union Memorial Hospital in Baltimore.</li>
-                      <li>Provided assistance at Bozeman Deaconess Hospital in Bozeman.</li>
-                    </ul>
-                  </div>
-                  <!-- timeline Item End -->
                 </div>
               </div>
             </div>
@@ -316,6 +294,31 @@
   </div>
 </section>
 <!-- About Section End -->
+
+<!--Resume section Begin-->
+<section class="resume section" id="resume">
+  <div class="container">
+    <div class="row">
+      <div class="section-title padd-15">
+        <h2>Resume</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="resume-content padd-15"> 
+        <p>If the embedded PDF doesn't display, <a href="assets/Jalil_Rezek_Resume.pdf" target = "_blank" download="Jalil_Rezek_Resume.pdf">view it here</a>. 
+        Or, if it does display, click the download button in the display interface.</p>
+
+        <!-- Embedded PDF -->
+        <div style="margin-top: 20px;">
+          <embed src="assets/jalil_rezek_resume.pdf" type="application/pdf" width="100%" height="600px" style="border: 1px solid #ccc;" />
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!--Resume section End-->
+
+
 
 <!-- Classes Section -->
 <section class="classes section" id="classes">
@@ -357,7 +360,9 @@
         </div>
         <div class="course-item" style="margin-bottom: 30px;">
           <h3>Machine Translation</h3>
-          <p style="font-size: 0.9rem;">AI and machine learning for language translation systems.</p>
+          <p style="font-size: 0.9rem;">Using Python and PyTorch to implement AI and machine learning techniques for language translation systems. 
+            Technologies used include recurrent neural networks and Long Short-Term Memory (LSTM) models.
+          </p>
         </div>
       </div>
     </div>
@@ -383,9 +388,9 @@
                 <div class="icon"><i class="fa fa-camera"></i></div>
                 <h4>Image Editor</h4>
                 <p>
-                  Developed a tool in C that enables users to apply various operations to image files including rotation, blurring, and
-                  saturation. Applied complex operations to manually implement these functionalities, and rigorously proofed the program of
-                  memory leaks.
+                  Developed a tool in C and Assembly that enables users to apply various operations to image files including rotation, composition, and a tiling efficient. 
+                  Applied complex operations to manually implement these functionalities, and rigorously proofed the program of memory leaks. 
+                  Check it out <a href="https://github.com/jalilrezek/C_Cpp_Assembly/tree/main/second_image_editor_in_Assembly_and_C" target = "_blank">here!</a>
                 </p>
               </div>
             </div>
@@ -399,6 +404,7 @@
                   Implemented a chess game in C++ from scratch for two players to play against one another. 
                   Employed object-oriented design principles to organize game components. 
                   Proofed program of memory leaks. Designed a visually appealing user interface to play the game.
+                  Check it out <a href="https://github.com/jalilrezek/C_Cpp_Assembly/tree/main/chess_game_cpp" target = "_blank">here!</a>
                 </p>
               </div>
             </div>
@@ -410,7 +416,7 @@
                 <h4>Pathfinding Application for Baltimore City</h4>
                 <p>
                   Implemented a graph data structure in Java with Dijkstra's algorithm to find the shortest paths between various addresses
-                  in Baltimore City.
+                  in Baltimore City. Check it out <a href="https://github.com/jalilrezek/data_structures/tree/main/Graph_and_Dijkstra_Algorithm" target = "_blank">here!</a>
                 </p>
               </div>
             </div>
@@ -424,7 +430,8 @@
                 <h4>Implementations of Data Structures</h4>
                 <p>
                   Using Java, manually implemented many data structures including the AVL Tree, Treap, HashSet, Stack, and Queue. Developed
-                  skill in designing algorithmically efficient implementations.
+                  skill in designing algorithmically efficient implementations. 
+                  View them <a href="https://github.com/jalilrezek/data_structures"> here!</a>
                 </p>
               </div>
             </div>
@@ -437,6 +444,18 @@
                 <p>
                   Simple web application allowing users to play the Game of Pig Dice Game. Try it 
                   <a href="https://cs280fa24-homework.github.io/hw-01-jalilrezek/" target="_blank">here!</a>                  
+                </p>
+              </div>
+            </div>
+            <!-- Service item End -->
+            <!-- Service item -->
+            <div class="service-item padd-15">
+              <div class="service-item-inner">
+                <div class="icon"><i class="fas fa-comment-alt"></i></div>
+                <h4>Meme Generator</h4>
+                <p>
+                  A simple web application that fetches data from an API containing meme images to enable meme generation. Try it 
+                  <a href="https://cs280fa24-homework.github.io/hw-03-jalilrezek/" target="_blank">here!</a>                  
                 </p>
               </div>
             </div>
